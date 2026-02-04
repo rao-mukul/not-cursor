@@ -2,3 +2,31 @@ body{
     background-color: #14120b;
     color: #edecec;
 }
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.signin{
+    background-color: #14120b;
+    color: #edecec;
+    border-radius: 16px;
+    padding: 6px 12px;
+    border: 1px solid #d0aeae7b;
+    margin-left: 300px;
+}
+
+.download{
+    background-color: #edecec;
+    color: #14120b;
+    border-radius: 16px;
+    padding: 6px 12px;
+    margin-right: 20px;
+}
+
+.cursor{
+    margin-right: 400px;
+}
